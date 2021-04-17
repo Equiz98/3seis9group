@@ -23,12 +23,12 @@
 
         <p class="mensaje">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever sin </p>
 
-        
-            <Form class="send-email">
-        <input type="email" placeholder="Direccion de Email">
-        <button><img src="Multimedia/right-arrow.png" alt="Arrow-right-send" width="35px" height="35px"></button>
-            </Form>
-        
+    <form action="post.php" method="post" name="">
+        <div class="send-email"> 
+            <input type="email" placeholder="Direccion de Email" name="email">
+            <button type="submit"><img src="Multimedia/right-arrow.png" alt="Arrow-right-send" width="35px" height="35px"></button>
+        </div>
+    </form>
 
         <a href="https://www.instagram.com/3seis9group/"><img src="Multimedia/logotipo-de-instagram-BLANCO.png"  width="35px" height="35px" alt=""></a>
     </section>
