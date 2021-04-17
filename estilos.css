@@ -1,0 +1,153 @@
+body{
+    background-color: #000;
+}
+.main-background{
+    background-image: url(Multimedia/Fondo369.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw; /* viewwidth */
+    height: 100vh; /* viewheight */
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info{
+    width: 50%;
+    height: 100vh;
+}
+
+
+.Logo{
+    width:293px; 
+    height:222px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+    
+p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.mensaje{
+    width: 90%; 
+    margin-bottom: 50px;
+}
+
+.send-email{
+    width: 65%;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+input[type=email]{
+    width: 80%;
+    height: 100%;
+    font-family: 'Lato';
+    padding-left: 25px;
+    color: inherit;
+    border: none;
+    
+    outline: inherit;
+}
+
+
+
+button{
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 70px;
+    background: #fff;
+        color: inherit;
+        border: none;
+        padding: 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+}
+
+a{
+    margin-left: 60px;
+    position: relative;
+        top: 50px;
+    
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 50%;
+     height: auto;
+}
+
+video{
+    width:auto; 
+    height: 90%;
+}
+
+@media screen and (max-width:420px){
+
+    .main-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .info{
+        width: 100vw;
+        height: auto;
+    }
+
+    .Logo{
+        width:193px; 
+        height:122px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .mensaje{
+        width: 90%; 
+        margin-bottom: 50px;
+    }
+
+    input[type=email]{
+        width: 75%;
+        height: 100%;
+        padding-left: 15px;
+        
+    }
+    
+    .send-email{
+        margin-left: 40px;
+    }
+
+
+    a{
+        margin-left: 40px;
+        position: relative;
+        top: 50px;
+    }
+
+    .video{
+        width: 100vw;
+        margin-top: 50%;
+        margin-left: 2%;
+    }
+    video{
+        width:95%; 
+        height: 90%;
+    }
+}
+
